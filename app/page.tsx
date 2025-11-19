@@ -115,7 +115,7 @@ export default function Home() {
       {/* Header */}
       <div className="mb-5 row d-flex justify-content-between">
         <div className="col-lg-6">
-          <p className="fs-2 fw-bold">LIST PASIEN</p>
+          <p className="fs-2 fw-bold">List Pasien</p>
         </div>
 
         <div className="col-lg-6 d-flex justify-content-end align-items-center">
@@ -156,7 +156,7 @@ export default function Home() {
                 <input
                   type="text"
                   className="form-control"
-                  placeholder="Input Nama"
+                  placeholder="Masukan Nama"
                   name="name"
                   value={form.name}
                   onChange={handleChange}
@@ -166,7 +166,7 @@ export default function Home() {
                 <input
                   type="text"
                   className="form-control"
-                  placeholder="Input No RM"
+                  placeholder="Masukan No RM"
                   name="no_rm"
                   value={form.no_rm}
                   onChange={handleChange}
@@ -188,7 +188,7 @@ export default function Home() {
                 <input
                   type="number"
                   className="form-control"
-                  placeholder="Input Phone Number"
+                  placeholder="Masukan Nomor Telepon"
                   name="phone_number"
                   value={form.phone_number}
                   onChange={handleChange}
@@ -198,7 +198,7 @@ export default function Home() {
                 <input
                   type="text"
                   className="form-control"
-                  placeholder="Input Address"
+                  placeholder="Masukan Alamat"
                   name="address"
                   value={form.address}
                   onChange={handleChange}
@@ -220,11 +220,11 @@ export default function Home() {
         <thead className="table-light">
           <tr>
             <th>No</th>
-            <th>Name</th>
-            <th>NoRm</th>
-            <th>Date Of Birth</th>
-            <th>Phone Number</th>
-            <th>Address</th>
+            <th>Nama</th>
+            <th>No Rm</th>
+            <th>Tanggal Lahir</th>
+            <th>Nomor Telepon</th>
+            <th>Alamat</th>
             <th style={{ width: "120px" }}>Action</th>
           </tr>
         </thead>
