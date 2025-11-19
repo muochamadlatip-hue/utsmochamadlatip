@@ -115,7 +115,7 @@ export default function Home() {
       {/* Header */}
       <div className="mb-5 row d-flex justify-content-between">
         <div className="col-lg-6">
-          <p className="fs-2 fw-bold">List Pasien</p>
+          <p className="fs-2 fw-bold">LIST PASIEN</p>
         </div>
 
         <div className="col-lg-6 d-flex justify-content-end align-items-center">
