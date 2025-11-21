@@ -47,6 +47,18 @@ export default function Home() {
   // SUBMIT (ADD / UPDATE)
   const handleSubmit = async (e: any) => {
     e.preventDefault();
+      
+    // VALIDASI DATA KOSONG
+  if (
+    !form.name ||
+    !form.no_rm ||
+    !form.date_of_birth ||
+    !form.phone_number ||
+    !form.address
+  ) {
+    alert("Data belum di isi!");
+    return;
+  }
 
     try {
       if (isEdit) {
